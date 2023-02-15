@@ -1,0 +1,37 @@
+.sprite {
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.sprite img {
+    --viento: -1;
+    position: relative;
+    top: calc( -16px * var(--viento));
+}
+
+/*#viento0 {
+    --viento: 0;
+}
+
+#viento1 {
+    --viento: 1;
+}
+
+#viento2 {
+    --viento: 2;
+}
+
+#viento3 {
+    --viento: 3;
+}
+
+#viento4 {
+    --viento: 4;
+}
+
+#vientovar{
+    top: 0px;
+    position: relative;
+}*/

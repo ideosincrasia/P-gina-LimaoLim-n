@@ -1,0 +1,42 @@
+form {
+    text-align: center;
+    margin: 0px 5%;
+}
+
+label {
+    width: 100px;
+}
+
+input{
+    width: 500px;
+}
+
+input:required:placeholder-shown {
+    box-shadow: inset 0px 0px 5px 2px tomato;
+    /*background-color: tomato;
+    Pero como me parece horrible tengo puesto mejor una sombra interior indicando el campo necesario vacío.*/
+}
+
+input:focus {
+    border-color: lime;
+    outline: none;
+}
+
+input:disabled {
+    background-color: black;
+}
+
+input[type="submit"] {
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;
+}
+
+input[type="text"]{
+    border-style: dotted;
+}
+
+[name^="f"]{
+    border-radius: 2px;
+    /* Viene puesto por defecto en 2 px, puesto que no cambia nada el tamaño de los campos.*/
+}

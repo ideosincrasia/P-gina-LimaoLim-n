@@ -1,0 +1,28 @@
+table {
+    /*Añadido para poner la tabla centrada en la pantalla por cuestiones de estilo*/
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    margin: 10% 25%;
+}
+
+tr {
+width: 25%;
+}
+
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+
+tr:last-child {
+    font-style: italic;
+    background-color: darkgrey;
+}
+
+tr:first-child{
+    font-style: italic;
+}
+
+td:first-child, td:nth-child(4){
+    text-align: center;
+}

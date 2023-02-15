@@ -1,0 +1,36 @@
+h1 {
+    border-bottom: 5px double black;
+}
+
+div{
+    margin: 5px;
+    padding: 10px;
+}
+
+.border {
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#div_1{
+    height: 100px;
+    width: 150px;
+    background-color: tomato;
+}
+
+#div_2 {
+    height: 100px;
+    width: 50%;
+    border: solid 1px black;
+}
+
+#div_3{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(245, 222, 179, 50%);
+    border: dotted 1px black;
+}
+
+#div_4{
+    border: solid 2px black;
+}
